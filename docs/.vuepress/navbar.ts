@@ -4,7 +4,7 @@ import type {NavItem} from 'vuepress-theme-plume'
 export const myNavbar = [
     {text: '首页', link: '/', icon: 'material-symbols:home-outline'},
     {
-        text: 'NEXTJS-14',
+        text: 'Next.js 14',
         icon: 'icon-park-outline:guide-board',
         link: '/nextjs14/',
         activeMatch: '^/nextjs14/',
