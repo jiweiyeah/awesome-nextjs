@@ -1,8 +1,8 @@
 ---
-title: 页面
+title: CSS
 author: 耶和博
 createTime: 2024/08/10 20:48:04
-permalink: /nextjs14/116otri0/
+permalink: /nextjs14/styling/css/
 ---
 
 # XXX

@@ -1,8 +1,8 @@
 ---
-title: 页面
+title: Sass
 author: 耶和博
 createTime: 2024/08/10 20:48:04
-permalink: /nextjs14/22v4l3l7/
+permalink: /nextjs14/styling/sass/
 ---
 
 # XXX

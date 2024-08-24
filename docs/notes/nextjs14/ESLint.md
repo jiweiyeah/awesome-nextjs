@@ -1,8 +1,8 @@
 ---
-title: 页面
+title: ESLint
 author: 耶和博
 createTime: 2024/08/10 20:48:04
-permalink: /nextjs14/8wgz5u1m/
+permalink: /nextjs14/configuring/eslint/
 ---
 
 # XXX
