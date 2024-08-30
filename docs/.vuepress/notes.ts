@@ -28,7 +28,7 @@ export const myNotes = definePlumeNotesConfig({
                     text: '数据获取',
                     collapsed: false,
                     icon: 'tabler:tools',
-                    items: ['获取', '缓存和重新验证', '服务器操作和变更'],
+                    items: ['数据获取和缓存', '服务器操作和变更', '增量静态再生(ISR)'],
                 },
                 {
                     text: '渲染',
