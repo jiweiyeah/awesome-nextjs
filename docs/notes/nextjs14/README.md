@@ -27,12 +27,12 @@ Next.js 的一些主要功能包括：
 
 | 功能 | 描述 |
 | --- | --- |
-| [路由](https://nextjs.org/docs/app/building-your-application/routing) | 基于文件系统的路由器，构建在 Server Components 之上，支持布局、嵌套路由、加载状态、错误处理等功能。 |
-| [渲染](https://nextjs.org/docs/app/building-your-application/rendering) | 支持客户端和服务器端渲染，结合客户端和服务器组件。通过静态和动态渲染进一步优化，在服务器端使用 Next.js 实现。支持在 Edge 和 Node.js 运行时上的流式渲染。 |
-| [数据获取](https://nextjs.org/docs/app/building-your-application/data-fetching) | 使用 Server Components 中的 async/await 简化数据获取，并扩展 `fetch` API 以进行请求缓存、数据缓存和重新验证。 |
-| [样式](https://nextjs.org/docs/app/building-your-application/styling) | 支持各种样式方法，包括 CSS Modules、Tailwind CSS 和 CSS-in-JS。 |
-| [优化](https://nextjs.org/docs/app/building-your-application/optimizing) | 提供图像、字体和脚本优化，以改善应用程序的核心 Web 体验和用户体验。 |
-| [TypeScript](https://nextjs.org/docs/app/building-your-application/configuring/typescript) | 提供对 TypeScript 的改进支持，包括更好的类型检查和更高效的编译，以及自定义 TypeScript 插件和类型检查器。 |
+| [路由](/nextjs14/route-fundamentals/) | 基于文件系统的路由器，构建在 Server Components 之上，支持布局、嵌套路由、加载状态、错误处理等功能。 |
+| [渲染](/nextjs14/rendering/) | 支持客户端和服务器端渲染，结合客户端和服务器组件。通过静态和动态渲染进一步优化，在服务器端使用 Next.js 实现。支持在 Edge 和 Node.js 运行时上的流式渲染。 |
+| [数据获取](/nextjs14/data-fetching/fetching/) | 使用 Server Components 中的 async/await 简化数据获取，并扩展 `fetch` API 以进行请求缓存、数据缓存和重新验证。 |
+| [样式](/nextjs14/styling/) | 支持各种样式方法，包括 CSS Modules、Tailwind CSS 和 CSS-in-JS。 |
+| [优化](/nextjs14/optimizing/) | 提供图像、字体和脚本优化，以改善应用程序的核心 Web 体验和用户体验。 |
+| [TypeScript](/nextjs14/configuring/typescript/) | 提供对 TypeScript 的改进支持，包括更好的类型检查和更高效的编译，以及自定义 TypeScript 插件和类型检查器。 |
 
 --------------------------------------------------
 
@@ -42,7 +42,7 @@ Next.js 的一些主要功能包括：
 
 在屏幕右侧，你会看到一个目录，使你更容易在页面各部分之间导航。如果你需要快速找到某个页面，可以使用顶部的搜索栏，或使用搜索快捷键（`Ctrl+K` 或 `Cmd+K`）。
 
-要开始使用，请查看[安装指南](https://nextjs.org/docs/getting-started/installation)。
+要开始使用，请查看[安装指南](/nextjs14/install/)。
 
 -------------------------------------------------------------
 
