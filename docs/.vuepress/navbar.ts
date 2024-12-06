@@ -9,6 +9,11 @@ export const myNavbar = [
         link: '/nextjs14/',
         activeMatch: '^/nextjs14/',
       },
+      {
+        text: '产品屋',
+        icon: 'f7:map-pin-ellipse',
+        link: 'https://bento.me/yeheboo',
+      },
     // {
     //     text: '博客',
     //     link: '/blog/',

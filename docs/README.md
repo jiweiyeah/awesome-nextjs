@@ -47,7 +47,7 @@ config:
         details: 调用函数来运行服务端代码，轻松验证缓存数据并在单次网络往返中更新UI
       -
         title: 路由处理程序
-        details: 构建AP!端点以安全地连接第三方服务来处理身份验证或监听webhook
+        details: 构建API端点以安全地连接第三方服务来处理身份验证或监听webhook
       -
         title: 高级路由和嵌套布局
         details: 使用文件系统创建路由，包括对更高级的路由模式和UI布局的支持 
