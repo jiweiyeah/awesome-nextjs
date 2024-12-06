@@ -76,5 +76,12 @@ config:
       -
         title: 
         description: 利用 Vercel 和 Next.js 社区的预构建解决方案快速启动您的 Next.js 开发
+  
+  -
+    type: image-text
+    title: 加入交流群
+    description: 一起学习、交流、分享
+    image: /images/yeheboo.png
+    width: 300px
 
 ---
