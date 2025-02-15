@@ -15,6 +15,7 @@ export default defineUserConfig({
         ['link', { rel: 'icon', type: 'image/jpg', sizes: '16x16', href: '/images/favicon.jpg' }],
         // ['meta', { name: 'google-site-verification', content: 'X5YSaTDn-pKqQBUKD_05_dQcxVItzEq7Rlbg2ZEU7AM' }],
         ['script', { defer: true, src: 'https://cloud.umami.is/script.js', 'data-website-id': '812ec4a5-ae45-457a-836e-5d32ee958204' }],
+        ['script', { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX', crossorigin: 'anonymous' }],
       ],
     theme: plumeTheme({
         hostname: 'https://nextjs.freeourdays.com',
