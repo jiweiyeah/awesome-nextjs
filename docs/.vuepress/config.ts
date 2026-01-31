@@ -13,21 +13,8 @@ export default defineUserConfig({
     head: [
         ['link', { rel: 'icon', type: 'image/jpg', sizes: '32x32', href: '/images/favicon.jpg' }],
         ['link', { rel: 'icon', type: 'image/jpg', sizes: '16x16', href: '/images/favicon.jpg' }],
-        // ['meta', { name: 'google-site-verification', content: 'X5YSaTDn-pKqQBUKD_05_dQcxVItzEq7Rlbg2ZEU7AM' }],
         ['script', { defer: true, src: 'https://cloud.umami.is/script.js', 'data-website-id': '812ec4a5-ae45-457a-836e-5d32ee958204' }],
         ['script', { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7611616409438220', crossorigin: 'anonymous' }],
-        ['script', {}, `
-          document.addEventListener('DOMContentLoaded', function() {
-            var footer = document.querySelector('.vp-footer');
-            if (footer && !document.getElementById('ssl-badge')) {
-              var badgeDiv = document.createElement('div');
-              badgeDiv.id = 'ssl-badge';
-              badgeDiv.style.cssText = 'display: flex; justify-content: center; margin-top: 8px;';
-              badgeDiv.innerHTML = '<a href="https://guardssl.info" target="_blank" rel="noopener noreferrer"><img src="https://guardssl.info/api/badge/4bab41c4-d5ef-4353-b595-4bf09a715d86?style=circular&v=1769854323039" alt="SSL Status"></a>';
-              footer.appendChild(badgeDiv);
-            }
-          });
-        `],
       ],
     theme: plumeTheme({
         hostname: 'https://nextjs.freeourdays.com',
