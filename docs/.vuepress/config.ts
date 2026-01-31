@@ -25,7 +25,9 @@ export default defineUserConfig({
         },
         notes: myNotes,
         navbar: myNavbar,
-        footer: { copyright: 'Copyright © 2024 耶和博' },
+        footer: { 
+            copyright: 'Copyright © 2026 耶和博<div style="display: flex; justify-content: center; margin-top: 8px;"><a href="https://guardssl.info" target="_blank"><img src="https://guardssl.info/api/badge/4bab41c4-d5ef-4353-b595-4bf09a715d86?style=circular&v=1769854323039" alt="SSL Status"></a></div>' 
+        },
         plugins: {
             shiki: {
                 languages: ['javascript', 'typescript', 'vue', 'bash', 'sh'],
